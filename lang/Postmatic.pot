@@ -1,0 +1,2696 @@
+# Copyright (C) 2016 Postmatic - WordPress Subscriptions & Commenting by Email
+# This file is distributed under the same license as the Postmatic - WordPress Subscriptions & Commenting by Email package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Postmatic - WordPress Subscriptions & Commenting by "
+"Email 2.0.0-beta5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/2.0.0-"
+"beta5-20160202-2121\n"
+"POT-Creation-Date: 2016-02-03 05:21:25+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/akismet-notice.php:24
+msgid ""
+"Heads up! We noticed Akismet is not active on your site. Akismet is free, "
+"bundled with WordPress, and stops the vast majority of comment spam. Please "
+"be sure that you are using it or a similar product to keep from spamming "
+"your subscribers. <a href=\"%s\" target=\"_blank\">Learn more</a>."
+msgstr ""
+
+#: admin/comment-options-tab.php:19
+msgid "Configure Comments"
+msgstr ""
+
+#: admin/comment-options-tab.php:42
+msgid "Comment form opt-in"
+msgstr ""
+
+#: admin/comment-options-tab.php:45
+msgid "Subscribe commenters to the conversation by default."
+msgstr ""
+
+#: admin/comment-options-tab.php:47
+msgid ""
+"Please note this may place you in violation of European and Canadian spam "
+"laws. Be sure to do your homework."
+msgstr ""
+
+#: admin/comment-options-tab.php:54
+msgid "Comment form opt-in text"
+msgstr ""
+
+#: admin/comment-options-tab.php:57
+msgid "This text is displayed by the checkbox on the comment form."
+msgstr ""
+
+#: admin/comment-options-tab.php:61
+msgid "Comment flood control"
+msgstr ""
+
+#: admin/comment-options-tab.php:64
+msgid ""
+"How many comments in one hour should it take to trigger the flood control? "
+"There is a mimimum of 3."
+msgstr ""
+
+#: admin/comment-options-tab.php:67
+msgid ""
+"Postmatic automatically pauses comment notifications on posts that go viral. "
+"Setting the trigger to be 6 comments per hour is good for most sites. You "
+"can read more about it <a href=\"%s\" target=\"_blank\">on our support site</"
+"a>.  "
+msgstr ""
+
+#: admin/conditional-notice.php:92 admin/notice-handling.php:87
+#: admin/options-page.php:385
+msgid "Dismiss"
+msgstr ""
+
+#: admin/core-options-tab.php:29
+msgid "Choose Modules"
+msgstr ""
+
+#: admin/core-options-tab.php:53
+msgid "Get Started with Postmatic"
+msgstr ""
+
+#: admin/core-options-tab.php:56
+msgid ""
+"Build relationships, engage your community, and grow your platform using "
+"Postmatic."
+msgstr ""
+
+#: admin/core-options-tab.php:65
+msgid "Postmatic Api Key"
+msgstr ""
+
+#: admin/core-options-tab.php:77
+msgid "Improve your site by making Postmatic even better"
+msgstr ""
+
+#: admin/core-options-tab.php:79
+msgid ""
+"We rely on users like you to help shape our development roadmap. By checking "
+"the box below you will be helping us know more about your site and how we "
+"can make Postmatic even better."
+msgstr ""
+
+#: admin/core-options-tab.php:91
+msgid "Yes, send periodic usage statistics to Postmatic."
+msgstr ""
+
+#: admin/core-options-tab.php:226
+msgid "Grow Your Audience"
+msgstr ""
+
+#: admin/core-options-tab.php:234 admin/invite-options-tab.php:17
+#: admin/invite-options-tab.php:285
+msgid "Send Invitations"
+msgstr ""
+
+#: admin/core-options-tab.php:235
+msgid "Turn past commenters into subscribers."
+msgstr ""
+
+#: admin/core-options-tab.php:247
+msgid "Create Popups and Optins"
+msgstr ""
+
+#: admin/core-options-tab.php:250
+msgid ""
+"Generate leads and grown your list using popups, flyovers, topbars & more."
+msgstr ""
+
+#: admin/core-options-tab.php:266
+msgid "Import from Mailchimp"
+msgstr ""
+
+#: admin/core-options-tab.php:267
+msgid "Move your Mailchimp lists over to Postmatic."
+msgstr ""
+
+#: admin/core-options-tab.php:279 admin/jetpack-import-options-tab.php:82
+msgid "Import from Jetpack"
+msgstr ""
+
+#: admin/core-options-tab.php:280
+msgid "Import your Jetpack subscriber list."
+msgstr ""
+
+#: admin/core-options-tab.php:292 admin/mailpoet-import-options-tab.php:317
+msgid "Import from Mailpoet"
+msgstr ""
+
+#: admin/core-options-tab.php:293
+msgid "Import your MailPoet subscriber lists."
+msgstr ""
+
+#: admin/core-options-tab.php:314
+msgid "Send Posts"
+msgstr ""
+
+#: admin/core-options-tab.php:315
+msgid "Deliver posts as replyable emails."
+msgstr ""
+
+#: admin/core-options-tab.php:342
+msgid "Send Digests"
+msgstr ""
+
+#: admin/core-options-tab.php:343
+msgid "Send automatic daily, weekly, or monthly digests of posts."
+msgstr ""
+
+#: admin/core-options-tab.php:366
+msgid "Send Notes"
+msgstr ""
+
+#: admin/core-options-tab.php:369
+msgid "Send replyable letters and private correspondence to your community."
+msgstr ""
+
+#: admin/core-options-tab.php:372
+msgid "Coming soon to Postmatic Premium."
+msgstr ""
+
+#: admin/core-options-tab.php:377
+msgid "Deliver Your Content"
+msgstr ""
+
+#: admin/core-options-tab.php:392
+msgid "Make commenting fun with Epoch"
+msgstr ""
+
+#: admin/core-options-tab.php:395
+msgid ""
+"<a href=\"http://gopostmatic.com/epoch\" target=\"_blank\">Epoch</a> is a "
+"free, private, and native alternative to Disqus. Your users will love it and "
+"your site speed score will as well."
+msgstr ""
+
+#: admin/core-options-tab.php:406
+msgid "Install Epoch"
+msgstr ""
+
+#: admin/core-options-tab.php:414
+msgid "Enable Social Commenting"
+msgstr ""
+
+#: admin/core-options-tab.php:417
+msgid ""
+"Install Postmatic Social Commenting, a tiny, fast, and convenient way to let "
+"your readers comment using their social profiles."
+msgstr ""
+
+#: admin/core-options-tab.php:428
+msgid "Install Social Commenting"
+msgstr ""
+
+#: admin/core-options-tab.php:435
+msgid "Engage Your Readers"
+msgstr ""
+
+#: admin/core-options-tab.php:443
+msgid "Comments by Email"
+msgstr ""
+
+#: admin/core-options-tab.php:446
+msgid "Let users subscribe to comments - and reply from their inbox."
+msgstr ""
+
+#: admin/core-options-tab.php:486
+msgid "Analyze & Monetize"
+msgstr ""
+
+#: admin/core-options-tab.php:493
+msgid "Enable Skimlinks"
+msgstr ""
+
+#: admin/core-options-tab.php:494
+msgid "Use Skimlinks in your all your emailed content."
+msgstr ""
+
+#: admin/core-options-tab.php:504
+msgid "Enable Buy Sell Ads"
+msgstr ""
+
+#: admin/core-options-tab.php:505
+msgid "Include your own ads in all Postmatic emails."
+msgstr ""
+
+#: admin/core-options-tab.php:506
+msgid "Coming Soon"
+msgstr ""
+
+#: admin/core-options-tab.php:520
+msgid "<a href=\"%s\" class=\"upgrade_link\">Upgrade to Postmatic Premium.</a>"
+msgstr ""
+
+#: admin/delivery-metabox.php:156
+msgid "Do not deliver this post via email."
+msgstr ""
+
+#: admin/delivery-metabox.php:167
+msgid "Include only the post excerpt in email."
+msgstr ""
+
+#: admin/delivery-metabox.php:180
+msgid "Do not use the featured image in email."
+msgstr ""
+
+#: admin/delivery-metabox.php:193
+msgid "Send me a preview email"
+msgstr ""
+
+#: admin/delivery-metabox.php:230
+msgid "No emails will be sent for this post."
+msgstr ""
+
+#: admin/delivery-metabox.php:235
+msgid ""
+"Your post will be sent to as plain text to %d subscribers and deliverability "
+"will depend on the outgoing mail of your web host. <br /> <br /> Upgrade to "
+"Postmatic Premium and get the reliability and look you want."
+msgstr ""
+
+#: admin/delivery-metabox.php:241
+msgid "Learn About Postmatic Premium"
+msgstr ""
+
+#: admin/delivery-metabox.php:249
+msgid ""
+"Your upgrade to Postmatic Premium means that your beautiful HTML email will "
+"be sent to every one of your %d readers using our top-notch mail servers. "
+"Nice!"
+msgstr ""
+
+#: admin/delivery-metabox.php:262
+msgid "No emails have been sent for this post."
+msgstr ""
+
+#: admin/delivery-metabox.php:265
+msgid "This post was sent to %d subscribers."
+msgstr ""
+
+#: admin/delivery-metabox.php:273
+msgid "Upgrade to Postmatic Premium"
+msgstr ""
+
+#: admin/email-options-tab.php:27
+msgid "Your Template"
+msgstr ""
+
+#: admin/email-options-tab.php:37
+msgid "Colors updated."
+msgstr ""
+
+#: admin/email-options-tab.php:47
+msgid "Colors set to defaults."
+msgstr ""
+
+#: admin/email-options-tab.php:57
+msgid "Test email was <strong>not sent</strong> to an invalid address."
+msgstr ""
+
+#: admin/email-options-tab.php:65
+msgid ""
+"This is a test email sent by Postmatic. It is solely for demonstrating the "
+"Postmatic template and is not replyable. Also, that is not latin. <a href="
+"\"https://en.wikipedia.org/wiki/Lorem_ipsum\">It is Lorem ipsum</a>."
+msgstr ""
+
+#: admin/email-options-tab.php:71 core/email-batches/email-batch.php:250
+msgid "This is a test email. By Postmatic."
+msgstr ""
+
+#: admin/email-options-tab.php:80
+msgid "Test email <strong>sent</strong>."
+msgstr ""
+
+#: admin/email-options-tab.php:97
+msgid "Customize Your Postmatic Template"
+msgstr ""
+
+#: admin/email-options-tab.php:99
+msgid ""
+"Since we'll be sending via email the focus should be on <em>your content</"
+"em>. That's why we keep things simple. Configure you colors, header and "
+"footer. Postmatic will handle what goes in between."
+msgstr ""
+
+#: admin/email-options-tab.php:113
+msgid "Use defaults"
+msgstr ""
+
+#: admin/email-options-tab.php:120
+msgid "Color palette detection"
+msgstr ""
+
+#: admin/email-options-tab.php:123
+msgid ""
+"Want the Postmatic template to use your typography and colors? Do so with a "
+"single click. We'll analyze the active theme and make your email template "
+"follow suit."
+msgstr ""
+
+#: admin/email-options-tab.php:149
+msgid "Refresh"
+msgstr ""
+
+#: admin/email-options-tab.php:159
+msgid "Email header type"
+msgstr ""
+
+#: admin/email-options-tab.php:165
+msgid "Image"
+msgstr ""
+
+#: admin/email-options-tab.php:166 admin/email-options-tab.php:275
+msgid "Text"
+msgstr ""
+
+#: admin/email-options-tab.php:176
+msgid "Email header image"
+msgstr ""
+
+#: admin/email-options-tab.php:179
+msgid ""
+"Choose a header image to be used when sending new posts, digests, letters, "
+"invitations, and subscription confirmations. Will be displayed at half the "
+"size of your uploaded image to support retina displays. The ideal width to "
+"fill the full header area is 1440px wide."
+msgstr ""
+
+#: admin/email-options-tab.php:204 admin/optins-options-tab.php:184
+#: admin/optins-options-tab.php:298 admin/optins-options-tab.php:464
+msgid "Change"
+msgstr ""
+
+#: admin/email-options-tab.php:213
+msgid "Email header text"
+msgstr ""
+
+#: admin/email-options-tab.php:216
+msgid ""
+"This text will show next to your site icon in simpler transactional emails "
+"such as comment notifications."
+msgstr ""
+
+#: admin/email-options-tab.php:236
+msgid "Site icon"
+msgstr ""
+
+#: admin/email-options-tab.php:239
+msgid ""
+"This is based on your site's favicon, and used in comment notifications in "
+"place of the header image."
+msgstr ""
+
+#: admin/email-options-tab.php:261
+msgid "Change in the customizer"
+msgstr ""
+
+#: admin/email-options-tab.php:268
+msgid "Email footer type"
+msgstr ""
+
+#: admin/email-options-tab.php:274
+msgid "Widgets"
+msgstr ""
+
+#: admin/email-options-tab.php:284
+msgid "Footer Widgets"
+msgstr ""
+
+#: admin/email-options-tab.php:287
+msgid "You can define widgets for your footer at "
+msgstr ""
+
+#: admin/email-options-tab.php:291
+msgid "Appearance > Widgets"
+msgstr ""
+
+#: admin/email-options-tab.php:298
+msgid "Share the love?"
+msgstr ""
+
+#: admin/email-options-tab.php:305
+msgid ""
+"Include \"Delivered by Postmatic\" in the footer area. We appreciate it!"
+msgstr ""
+
+#: admin/email-options-tab.php:316
+msgid "Email footer text"
+msgstr ""
+
+#: admin/email-options-tab.php:328
+msgid "Send a test email to"
+msgstr ""
+
+#: admin/email-options-tab.php:342
+msgid "Send"
+msgstr ""
+
+#: admin/email-options-tab.php:352
+msgid "Custom welcome message"
+msgstr ""
+
+#: admin/email-options-tab.php:353
+msgid ""
+"When someone sucessfully subscribes to your site we'll shoot back a "
+"confirmation note. Use this as a place to say thanks, or even offer an "
+"incentive."
+msgstr ""
+
+#: admin/import-options-tab.php:10
+msgid "Import Users"
+msgstr ""
+
+#: admin/import-options-tab.php:22 admin/mailchimp-import-options-tab.php:47
+msgid "Import results are below."
+msgstr ""
+
+#: admin/import-options-tab.php:30
+msgid "Important:"
+msgstr ""
+
+#: admin/import-options-tab.php:32
+msgid ""
+"You have User Account notifications enabled in the Options tab, which means "
+"that each new subscriber imported will receive an email with their "
+"credentials. It is not necessary to send these credentials to Postmatic "
+"subscribers as all subscriber functions can be done directly via email. If "
+"you would like to disable these notifications please do so in the Options "
+"tab above."
+msgstr ""
+
+#: admin/invite-options-tab.php:70
+msgid "Duplicate email address"
+msgstr ""
+
+#: admin/invite-options-tab.php:75
+msgid "Invalid email address"
+msgstr ""
+
+#: admin/invite-options-tab.php:81
+msgid "Already subscribed"
+msgstr ""
+
+#: admin/invite-options-tab.php:106
+msgid "Success. %d invite sent."
+msgid_plural "Success. %d invites sent."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/invite-options-tab.php:111
+msgid "Something went wrong and these invites were not sent: "
+msgstr ""
+
+#: admin/invite-options-tab.php:125
+msgid "Send Invitations to Subscribe to Your Site"
+msgstr ""
+
+#: admin/invite-options-tab.php:126
+msgid "You already have all the email addresses you need."
+msgstr ""
+
+#: admin/invite-options-tab.php:128
+msgid ""
+"When someone leaves a comment they share their email address. You may have "
+"thousands of them sitting in your database. Let's reach out and turn them "
+"into subscribers."
+msgstr ""
+
+#: admin/invite-options-tab.php:136
+msgid "Who should we send this invite to?"
+msgstr ""
+
+#: admin/invite-options-tab.php:143
+msgid "A list of email addresses"
+msgstr ""
+
+#: admin/invite-options-tab.php:144
+msgid "People who have recently commented"
+msgstr ""
+
+#: admin/invite-options-tab.php:145
+msgid "People who comment the most"
+msgstr ""
+
+#: admin/invite-options-tab.php:146
+msgid "Anyone that has ever commented"
+msgstr ""
+
+#: admin/invite-options-tab.php:147
+msgid "WordPress users who are not subscribed"
+msgstr ""
+
+#: admin/invite-options-tab.php:148
+msgid "WordPress users subscribed to a comment thread but not new posts"
+msgstr ""
+
+#: admin/invite-options-tab.php:166
+msgid "Please separate addresses with commas."
+msgstr ""
+
+#: admin/invite-options-tab.php:179
+msgid ""
+"Send this invitation to people who have had an approved comment within the "
+"last"
+msgstr ""
+
+#: admin/invite-options-tab.php:185
+msgid "months."
+msgstr ""
+
+#: admin/invite-options-tab.php:196
+msgid "Send this invitation to people who have at least"
+msgstr ""
+
+#: admin/invite-options-tab.php:203
+msgid "approved comments."
+msgstr ""
+
+#: admin/invite-options-tab.php:214
+msgid "Send this invitation to "
+msgstr ""
+
+#: admin/invite-options-tab.php:221
+msgid "users who are not subscribed."
+msgstr ""
+
+#: admin/invite-options-tab.php:225
+msgid "Email Subject"
+msgstr ""
+
+#: admin/invite-options-tab.php:235
+msgid "Email Introduction"
+msgstr ""
+
+#: admin/invite-options-tab.php:238
+msgid ""
+"This text will be placed at the top of invitation message. Make it as "
+"friendly and personalized as you can."
+msgstr ""
+
+#: admin/invite-options-tab.php:253
+msgid "Recipients"
+msgstr ""
+
+#: admin/invite-options-tab.php:257
+msgid ""
+"Based on the above your invite will be sent to <span class=\"recipient-count"
+"\">0</span> people."
+msgstr ""
+
+#: admin/invite-options-tab.php:265
+msgid ""
+"Wow, that's a lot of invitations! This tool is currently limited to %d "
+"invites. You can contact support if you need to arrange more."
+msgstr ""
+
+#: admin/invite-options-tab.php:294
+msgid "All"
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:6
+#: admin/jetpack-import-options-tab.php:14
+msgid "Jetpack Import"
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:32
+msgid ""
+"Migrating your users from Jetpack to Postmatic takes only seconds. We’ve "
+"built a safe and secure importer which will copy over all of your new post "
+"notification Jetpack subscribers with a single click. Once the import has "
+"completed you can safely disable Jetpack Subscriptions and continue on doing "
+"what you do best. Your Jetpack subscribers will be left in tact should you "
+"ever need to access them again."
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:38
+msgid "Jetpack Import FAQ"
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:39
+msgid "Will my subscribers be alerted to the change?"
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:41
+msgid ""
+"No. The import process is invisible to subscribers. They will not be alerted "
+"nor will they need to opt-in again."
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:46
+msgid "What kind of subscribers are imported?"
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:48
+msgid ""
+"People who have subscribed to new posts on your site will be imported. At "
+"this time it's not going to be in the cards to import people that have "
+"subscribed only to comments on individual posts."
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:53
+msgid "Who isn't imported?"
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:55
+msgid ""
+"Jetpack supports two kinds of users: people that subscribe to your site with "
+"their email address, and people that subscribe to your site with their "
+"wordpress.com user identity. At this time we can't access the email address "
+"of a user which subscribed with their wordpress.com identity. This will in "
+"most cases be a very small percentage of your audience."
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:61
+msgid ""
+"What happens if something goes wrong? Will my Jetpack subscribers be safe?"
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:64
+msgid ""
+"If something goes wrong with the import you will be notified of the error. "
+"Your Jetpack subscribers list lives on wordpress.com and will always be "
+"there in case you need it again."
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:73
+msgid ""
+"Everything on your server looks good. We are ready to import your Jetpack "
+"subscribers."
+msgstr ""
+
+#: admin/jetpack-import-options-tab.php:92
+msgid ""
+"We have imported one subscriber. It is now safe to disable Jetpack "
+"commenting and subscriptions."
+msgid_plural ""
+"Imported %1$s subscribers. It is now safe to disable Jetpack commenting and "
+"subscriptions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/jetpack-import-options-tab.php:100
+msgid "The one user we found was already subscribed."
+msgid_plural "The %2$s users we found were already subscribed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/jetpack-import.php:44
+msgid ""
+"The Jetpack import requires a common PHP extension called \"libxml\" that is "
+"not present. Please check with your hosting provider."
+msgstr ""
+
+#: admin/jetpack-import.php:50
+msgid ""
+"Before you can import Jetpack subscribers, the Jetpack plugin and its Stats "
+"module must be active."
+msgstr ""
+
+#: admin/jetpack-import.php:183
+msgid "A request to the Jetpack servers failed."
+msgstr ""
+
+#: admin/local-mail-notice.php:39
+msgid ""
+"We detected that your host is unable to send email. You'll have to contact "
+"them for help, or upgrade Postmatic to use our awesome delivery services."
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:23
+msgid "Mailchimp Import"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:58
+msgid "Migrate Your Mailchimp Lists"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:60
+msgid ""
+"It only takes a second to import your Mailchimp lists into Postmatic. We are "
+"a little particular about subscriber lists though so please consider <a href="
+"\"http://docs.gopostmatic.com/article/144-im-having-trouble-importing-my-"
+"mailchimp-lists\" target=\"_blank\">reading this support article</a> before "
+"you get started."
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:89
+msgid "Here's how it went"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:93
+#: admin/mailpoet-import-options-tab.php:102
+msgid "Imported one subscriber."
+msgid_plural "Imported %1$s subscribers."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/mailchimp-import-options-tab.php:101
+#: admin/mailpoet-import-options-tab.php:110
+msgid "The one valid user we found was already subscribed."
+msgid_plural "The %2$s valid users we found were already subscribed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/mailchimp-import-options-tab.php:114
+#: admin/mailpoet-import-options-tab.php:123
+msgid "One user didn't qualify for importing."
+msgid_plural "There were %3$s users which didn't qualify for importing."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/mailchimp-import-options-tab.php:122
+#: admin/mailpoet-import-options-tab.php:131
+msgid "Why weren't more of my users imported?"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:124
+msgid ""
+"We have a very strict policy regarding user imports: <em>we will never allow "
+"anyone to be subscribed to a blog running Postmatic without them having "
+"opted in</em> (such as subscriber lists bought and imported in bulk for "
+"spamming). Because of this we will not import any MailChimp subscribers "
+"unless the following two conditions are true:"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:130
+msgid "The user has double opted-in to your MailChimp list"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:131
+msgid "The user exists on a list which is at least 14 days old"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:133
+#: admin/mailpoet-import-options-tab.php:142
+#: admin/mailpoet-import-options-tab.php:247
+msgid "Why so strict?"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:135
+msgid ""
+"Bulk importing unwilling users is easy in MailChimp. If we did not hold our "
+"import to a higher standard those unwilling users could be imported into "
+"Postmatic. And then they would spam your users. MailChimp is a one-way "
+"street. Postmatic is a conversation. That's a very important difference."
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:140
+#: admin/mailpoet-import-options-tab.php:149
+msgid "But we do have good news"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:142
+#: admin/mailpoet-import-options-tab.php:151
+msgid ""
+"You can send an email to your remaining users. They will be invited to join "
+"your site by simply replying."
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:163
+#: admin/mailpoet-import-options-tab.php:171
+msgid "Preview and send the invitations"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:192
+msgid "MailChimp API Key: "
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:204
+msgid "Load lists"
+msgstr ""
+
+#: admin/mailchimp-import-options-tab.php:221
+msgid "Evaluate and import list"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:31
+msgid "MailPoet Import"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:51
+msgid "Mailpoet Import"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:71
+msgid ""
+"If you would like to import Mailpoet users please activate the Mailpoet "
+"plugin."
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:98
+#: admin/subscribe-reloaded-import-options-tab.php:83
+msgid "Here's how it went:"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:133
+#: admin/mailpoet-import-options-tab.php:238
+msgid ""
+"We have a very strict policy regarding user imports: <em>we will never allow "
+"anyone to be subscribed to a blog running Postmatic without them having "
+"opted in</em> (such as subscriber lists bought and imported in bulk for "
+"spamming). Because of this we will not import any Mailpoet subscribers "
+"unless the following two conditions are true:"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:139
+#: admin/mailpoet-import-options-tab.php:244
+msgid "The user has opened an email you sent through Mailpoet"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:140
+#: admin/mailpoet-import-options-tab.php:245
+msgid "The user has clicked a link within an email you sent through Mailpoet"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:144
+#: admin/mailpoet-import-options-tab.php:249
+msgid ""
+"Bulk importing unwilling users and marking them as opted-in is easy in "
+"Mailpoet. If we did not hold our import to a higher standard the magic "
+"button below would allow those unwilling users to be imported into "
+"Postmatic. And then they would spam your grandmother. Nobody wants that. "
+"Plus, if a subscriber does not open or interact with your emails maybe they "
+"aren't all that good of a match anyway, right? Think of it as spring "
+"cleaning."
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:203
+msgid ""
+"There are no lists available from MailPoet. Are you sure it is activated?"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:206
+msgid ""
+"Mailpoet is detected. We are ready to import active subscribers from "
+"Mailpoet."
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:233
+msgid "Mailpoet Import FAQ"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:234
+msgid "Will my subscribers be sent a notification?"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:235
+msgid "No. The import process is invisible to subscribers."
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:236
+msgid "Which of my subscribers will be imported?"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:254
+msgid "Can I import multiple lists?"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:256
+msgid ""
+"Yes. Re-run this importer with as many lists as you like. Postmatic will not "
+"create duplicate subscribers."
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:262
+msgid ""
+"Does Postmatic have lists like Mailpoet does? Is there any way to organize "
+"subscribers?"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:268
+msgid ""
+"No, we do not have a concept of multiple lists. All users are the same in "
+"Postmatic. If list segmentation is important to you please let us know by "
+"visiting our support site. You'll find the link to the right."
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:273
+msgid "What will happen to my Mailpoet subscribers?"
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:275
+msgid ""
+"Mailpoet and Postmatic store subscribers in different places within your "
+"WordPress database. Your Mailpoet subscribers will always be available to "
+"you provided you have Mailpoet activated."
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:287
+msgid "Choose a Mailpoet list to import from: "
+msgstr ""
+
+#: admin/mailpoet-import-options-tab.php:298 core/ajax-handling.php:288
+msgid "Choose a Postmatic list to import to:"
+msgstr ""
+
+#: admin/moderation-user-notice.php:37
+msgid ""
+"The email address in Settings / General / E-mail Address does not match any "
+"user. Postmatic is great for moderating comments via email, but it must act "
+"on behalf of a user with permission to do this. You can either create an "
+"admin user with email address %s, or change the site E-mail address setting "
+"to the address of the user who will moderate comments."
+msgstr ""
+
+#: admin/notice-handling.php:49
+msgid ""
+"Please <a href=\"%s\">update Postmatic</a> now to resume service. The "
+"current version is no longer supported. Thanks!"
+msgstr ""
+
+#: admin/notice-handling.php:75
+msgid ""
+"Heads up: We noticed there is an active Jetpack module which is not "
+"compatible with Postmatic. You'll need to fix that. <a href=\"%s\" target="
+"\"_blank\">Learn how to do so here</a>."
+msgstr ""
+
+#: admin/optins-options-tab.php:16
+msgid "Configure Optins"
+msgstr ""
+
+#: admin/optins-options-tab.php:53
+msgid "Add optin forms to your site and turn visitors into subscribers"
+msgstr ""
+
+#: admin/optins-options-tab.php:55
+msgid ""
+"Postmatic comes bundled with four different opt-in styles. They are "
+"lightweight, fast, and effective ways to build your audience."
+msgstr ""
+
+#: admin/optins-options-tab.php:73
+msgid "Enable Popups"
+msgstr ""
+
+#: admin/optins-options-tab.php:81
+msgid "Popup over the page <small>(click to enable)</small>"
+msgstr ""
+
+#: admin/optins-options-tab.php:83
+msgid ""
+"A traditional popup which displays over the page content using an animated "
+"modal window. This popup can be triggered depending how long a user has been "
+"on the page, when the user scrolls to the bottom of the post, or after the "
+"user leaves a comment if you are using <a href=\"http://gopostmatic.com/epoch"
+"\">Epoch</a>."
+msgstr ""
+
+#: admin/optins-options-tab.php:92
+msgid "How would you like to trigger this popup?"
+msgstr ""
+
+#: admin/optins-options-tab.php:107
+msgid ""
+"<strong>Enable test mode</strong>: Always trigger popup for Administrator-"
+"level users"
+msgstr ""
+
+#: admin/optins-options-tab.php:116
+msgid "After how many seconds would you like this popup to pop?"
+msgstr ""
+
+#: admin/optins-options-tab.php:132 admin/optins-options-tab.php:253
+msgid "Add a headline and some welcoming text."
+msgstr ""
+
+#: admin/optins-options-tab.php:133 admin/optins-options-tab.php:254
+msgid "Headline"
+msgstr ""
+
+#: admin/optins-options-tab.php:143 admin/optins-options-tab.php:262
+msgid ""
+"Text to display below headline<small>Allowed HTML: a, strong, em, ul, ol, "
+"li, img, p, h2, h3, h4</small>"
+msgstr ""
+
+#: admin/optins-options-tab.php:161
+msgid "Choose a theme. This controls how the popup looks on your site."
+msgstr ""
+
+#: admin/optins-options-tab.php:166
+msgid "Choose an image to display on the left side of your popup."
+msgstr ""
+
+#: admin/optins-options-tab.php:169 admin/optins-options-tab.php:283
+#: admin/optins-options-tab.php:449
+msgid ""
+"We haven't built our image chooser yet but have created 8 different icons "
+"for you to use (or you can upload your own). <a href=\"%s\" target=\"_blank"
+"\">Download them here</a> and add the ones you like to your media library "
+"(below). In the future just search your media library for the word "
+"<em>Postmatic</em>."
+msgstr ""
+
+#: admin/optins-options-tab.php:188 admin/optins-options-tab.php:302
+#: admin/optins-options-tab.php:468
+msgid "Reset"
+msgstr ""
+
+#: admin/optins-options-tab.php:205
+msgid "Enable bottom slider"
+msgstr ""
+
+#: admin/optins-options-tab.php:213
+msgid "Slide in from the bottom <small>(click to enable)</small>"
+msgstr ""
+
+#: admin/optins-options-tab.php:215
+msgid ""
+"A subtle slider that pops up from the bottom of the browser window. This "
+"popup can be triggered depending how long a user has been on the page, when "
+"the user scrolls to the bottom of the post, or after the user leaves a "
+"comment if you are using <a href=\"http://gopostmatic.com/epoch\">Epoch</a>."
+msgstr ""
+
+#: admin/optins-options-tab.php:224
+msgid "When should this slider trigger?"
+msgstr ""
+
+#: admin/optins-options-tab.php:240
+msgid "After how many seconds would you like the slider to slide?"
+msgstr ""
+
+#: admin/optins-options-tab.php:275
+msgid "Choose a theme. This controls how the slider looks on your site."
+msgstr ""
+
+#: admin/optins-options-tab.php:280
+msgid "Choose an image to display on the right side of your popup."
+msgstr ""
+
+#: admin/optins-options-tab.php:319
+msgid "Enable the topbar"
+msgstr ""
+
+#: admin/optins-options-tab.php:327
+msgid "A bar across the top of your site <small>(click to enable)</small>"
+msgstr ""
+
+#: admin/optins-options-tab.php:329
+msgid ""
+"A 50px tall bar that spans across the top of your site. The bar is a "
+"persistent (meaning it does no scroll with the rest of your content)  and "
+"unobtrusive reminder to subscribe. <strong>Note:</strong> may not render "
+"properly in all themes. This one is tricky. Give it a try to see."
+msgstr ""
+
+#: admin/optins-options-tab.php:338
+msgid "What message should be in the bar?"
+msgstr ""
+
+#: admin/optins-options-tab.php:353
+msgid "Choose a theme. This controls how the bar looks on your site."
+msgstr ""
+
+#: admin/optins-options-tab.php:377
+msgid "Enable after-the-post"
+msgstr ""
+
+#: admin/optins-options-tab.php:385
+msgid "A form at the end of each post <small>(click to enable)</small>"
+msgstr ""
+
+#: admin/optins-options-tab.php:387
+msgid ""
+"A nicely styled form that automatically displays at the bottom of each post "
+"on your site and invites users to subscribe. Classy, simple, and effective."
+msgstr ""
+
+#: admin/optins-options-tab.php:398
+msgid "Give the box a headline"
+msgstr ""
+
+#: admin/optins-options-tab.php:408
+msgid "Add some text inviting your users to subscribe"
+msgstr ""
+
+#: admin/optins-options-tab.php:433
+msgid ""
+"IDs (comma separated) of posts to show in. Or use \"all\" to use on all "
+"posts."
+msgstr ""
+
+#: admin/optins-options-tab.php:438
+msgid "Choose a theme. This controls how the form looks on your site."
+msgstr ""
+
+#: admin/optins-options-tab.php:443
+msgid "Choose an image to display on the left side of your form."
+msgstr ""
+
+#: admin/optins-options-tab.php:651
+msgid "Choose a popup background image"
+msgstr ""
+
+#: admin/optins-options-tab.php:707
+msgid "Choose a bottom background image"
+msgstr ""
+
+#: admin/optins-options-tab.php:749
+msgid "Choose a inpost background image"
+msgstr ""
+
+#. #-#-#-#-#  Postmatic.pot (Postmatic - WordPress Subscriptions & Commenting by Email 2.0.0-beta5)  #-#-#-#-#
+#. Author of the plugin/theme
+#: admin/options-page.php:69
+msgid "Postmatic"
+msgstr ""
+
+#: admin/options-page.php:136
+msgid "Settings <strong>saved</strong>."
+msgstr ""
+
+#: admin/options-page.php:145
+msgid "Report sent! Our bug munchers thank you for the meal."
+msgstr ""
+
+#: admin/options-page.php:152
+msgid ""
+"Request sent. We are currently sending a few hundred tokens per week. Expect "
+"to receive yours within 1-2 days. You can safely leave Postmatic activated "
+"but it is not necessary to do so."
+msgstr ""
+
+#: admin/options-page.php:193
+msgid "Choose an email header image"
+msgstr ""
+
+#: admin/options-page.php:215
+msgid "&#9998; Manage your account"
+msgstr ""
+
+#: admin/options-page.php:237
+msgid "Already have a key?"
+msgstr ""
+
+#: admin/options-page.php:240
+msgid "Postmatic Key"
+msgstr ""
+
+#: admin/options-page.php:244
+msgid "Once you have your key, enter it here to blast off!."
+msgstr ""
+
+#: admin/options-page.php:312
+msgid ""
+"We are unable to reach the Postmatic server at app.gopostmatic.com. If this "
+"happens consistently, your web host may be blocking the connection, and "
+"you'll have to ask for an exception before Postmatic will work."
+msgstr ""
+
+#: admin/options-page.php:338
+msgid ""
+"<strong>Just a moment</strong>. Postmatic is running a test to make sure our "
+"server can talk to yours. It may take a few seconds."
+msgstr ""
+
+#: admin/options-page.php:342
+msgid ""
+"<strong>There's a problem :(</strong> Postmatic was unable to connect to "
+"your server. If you or your web host have put restrictions on incoming web "
+"connections an exception may be needed to let our server (app.gopostmatic."
+"com) talk to yours. Click the question mark icon in the lower right corner "
+"for more assistance or try contacting your web host."
+msgstr ""
+
+#: admin/options-page.php:379
+msgid ""
+"<strong>Attention:</strong> There have been some recent errors in your "
+"configuration. An error log can be found here: "
+msgstr ""
+
+#: admin/options-page.php:386
+msgid "Submit A Bug Report"
+msgstr ""
+
+#: admin/options-page.php:492
+msgid ""
+"There's a problem verifying your key. Please try later or report this error."
+msgstr ""
+
+#: admin/options-page.php:499
+msgid ""
+"Postmatic service is temporarily unavailable, see <a href=\"%s\">our twitter "
+"feed</a> for updates."
+msgstr ""
+
+#: admin/options-page.php:510
+msgid ""
+"We didn't recognize the key \"%s\". Please make sure it exactly matches the "
+"key we supplied you. <a href=\"%s\" target=\"_blank\">Visit your Postmatic "
+"dashboard for assistance</a>. "
+msgstr ""
+
+#: admin/options-page.php:524
+msgid ""
+"Your key was registered for a different site. Please request a key for this "
+"site's dedicated use, or <a href=\"%s\" target=\"_blank\">contact us</a> for "
+"assistance. Thanks!"
+msgstr ""
+
+#: admin/post-options-tab.php:18
+msgid "Configure Posts"
+msgstr ""
+
+#: admin/post-options-tab.php:40
+msgid "Send Posts to Subscribers"
+msgstr ""
+
+#: admin/post-options-tab.php:41
+msgid ""
+"Posts are sent as soon as you hit publish.<br /> Comments can be sent with a "
+"simple reply."
+msgstr ""
+
+#: admin/post-options-tab.php:45
+msgid "Author Subscriptions"
+msgstr ""
+
+#: admin/post-options-tab.php:48
+msgid ""
+"Subscribe authors to comments on their own posts.<small>(Recommended)</small>"
+msgstr ""
+
+#: admin/post-options-tab.php:52
+msgid ""
+"This will automatically subscribe post authors to new comment notifications "
+"on their posts. This works well to keep the author up to date with the "
+"latest comments and discussion."
+msgstr ""
+
+#: admin/post-options-tab.php:59
+msgid "User Accounts"
+msgstr ""
+
+#: admin/post-options-tab.php:62
+msgid "Email subscribers WordPress account credentials when they subscribe."
+msgstr ""
+
+#: admin/post-options-tab.php:64
+msgid ""
+"Only necessary in some situations as all user commands are otherwise "
+"possible via email. If enabled we recommend using a good front end login "
+"plugin."
+msgstr ""
+
+#: admin/post-options-tab.php:71
+msgid "Choose Posts to Deliver"
+msgstr ""
+
+#: admin/post-options-tab.php:74
+msgid "Do not send new posts unless I choose to."
+msgstr ""
+
+#: admin/post-options-tab.php:76
+msgid ""
+"Uncheck the \"Do not deliver this post via email\" checkbox before "
+"publishing to deliver a specific post."
+msgstr ""
+
+#: admin/post-options-tab.php:83
+msgid "Default sending mode"
+msgstr ""
+
+#: admin/post-options-tab.php:86
+msgid "Send only the excerpt instead of the full post content."
+msgstr ""
+
+#: admin/post-options-tab.php:88
+msgid ""
+"Enable this setting to only send excerpts with a button to read more online. "
+"You can override this on a per-post basis when drafting a new post. Note "
+"that the user will not be able to reply to the email to leave a comment "
+"because... well... who can comment on an excerpt?"
+msgstr ""
+
+#: admin/subscribe-reloaded-import-options-tab.php:14
+msgid "SCR Importer"
+msgstr ""
+
+#: admin/subscribe-reloaded-import-options-tab.php:31
+msgid "Migrate Comment subscriptions"
+msgstr ""
+
+#: admin/subscribe-reloaded-import-options-tab.php:33
+msgid ""
+"This utilitly will migrate comment subscriptions from Subscribe to Comments, "
+"Subscribe to Comments Reloaded, and Subscribe to Double-Opt-In Comments."
+msgstr ""
+
+#: admin/subscribe-reloaded-import-options-tab.php:39
+msgid ""
+"Subscribers are imported silently and without notice sent. When the import "
+"has finished you can disable your legacy subscription plugin."
+msgstr ""
+
+#: admin/subscribe-reloaded-import-options-tab.php:43
+msgid "Important information before you get started:"
+msgstr ""
+
+#: admin/subscribe-reloaded-import-options-tab.php:46
+msgid ""
+"You must be running Subscribe to Comments <strong>Reloaded</strong> to use "
+"this migration tool. Please upgrade to Reloaded if you have not already. "
+"View <a href=\"%s\" target=\"_blank\">this support article</a> for more "
+"information."
+msgstr ""
+
+#: admin/subscribe-reloaded-import-options-tab.php:69
+msgid ""
+"If you would like to import from Subscribe To Comments Reloaded  please "
+"activate that plugin."
+msgstr ""
+
+#: admin/subscribe-reloaded-import-options-tab.php:87
+msgid "We have migrated one subscription.<br />"
+msgid_plural ""
+"We have migrated %1$s subscriptions.<br /> You can disable Subscribe to "
+"Comments Reloaded at this time.<br />"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/subscribe-reloaded-import-options-tab.php:95
+msgid ""
+"There was one other subscription found but it had already been imported."
+msgid_plural ""
+"There were %2$s other subscriptions found but they had already been imported."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/subscribe-reloaded-import-options-tab.php:147
+msgid "Import from Subscribe To Comments Reloaded"
+msgstr ""
+
+#: admin/support-options-tab.php:8 admin/support-options-tab.php:70
+msgid "Get Support"
+msgstr ""
+
+#: admin/support-options-tab.php:22
+msgid "Diagnostics from %s"
+msgstr ""
+
+#: admin/support-options-tab.php:33
+msgid "Diagnostics could not be sent, please try a bug report."
+msgstr ""
+
+#: admin/support-options-tab.php:39
+msgid "Diagnostics <strong>sent</strong>."
+msgstr ""
+
+#: admin/support-options-tab.php:44
+msgid "Need Some Help?"
+msgstr ""
+
+#: admin/support-options-tab.php:48
+msgid "Documentation"
+msgstr ""
+
+#: admin/support-options-tab.php:49
+msgid "Find answers to the most common questions and ask your own."
+msgstr ""
+
+#: admin/support-options-tab.php:53
+msgid "Find Answers"
+msgstr ""
+
+#: admin/support-options-tab.php:59
+msgid "Widget Directory"
+msgstr ""
+
+#: admin/support-options-tab.php:60
+msgid ""
+"We've hand curated dozen of widgets. Get the most out of your email template."
+msgstr ""
+
+#: admin/support-options-tab.php:64
+msgid "Research Widgets"
+msgstr ""
+
+#: admin/support-options-tab.php:71
+msgid "Let us know if something isn't right. We'll fix it right away."
+msgstr ""
+
+#: admin/support-options-tab.php:75
+msgid "Submit a Ticket"
+msgstr ""
+
+#: admin/support-options-tab.php:80
+msgid "The Latest Postmatic News:"
+msgstr ""
+
+#: admin/support-options-tab.php:84
+msgid "Advanced: Send Diagnostic Info to Support"
+msgstr ""
+
+#: admin/support-options-tab.php:95
+msgid "No news available at the moment."
+msgstr ""
+
+#: admin/text-metabox.php:53
+msgid "This was the text version sent to subscribers."
+msgstr ""
+
+#: admin/text-metabox.php:65
+msgid "Customize"
+msgstr ""
+
+#: admin/text-metabox.php:78
+msgid ""
+"This post will be sent as a multipart message. We have automatically "
+"generated a plaintext version for older email clients. You can adjust it if "
+"you need to."
+msgstr ""
+
+#: admin/users-handling.php:24
+msgid "Export Postmatic Subscribers"
+msgstr ""
+
+#: admin/users-handling.php:38
+msgid "Postmatic Subscriptions"
+msgstr ""
+
+#: admin/users-handling.php:70
+msgid "New Posts"
+msgstr ""
+
+#: admin/users-handling.php:79
+msgid "%d Author"
+msgid_plural "%d authors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/users-handling.php:90
+msgid "%d Conversations"
+msgid_plural "%d Conversations"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/widget-notice.php:35
+msgid ""
+"Your current theme is missing widget areas. This means you'll have to use "
+"the template tag to display the Postmatic Subscription widget."
+msgstr ""
+
+#: admin/widget-notice.php:46
+msgid ""
+"To get started now, place the Postmatic Subscribe widget where people can "
+"use it to subscribe!"
+msgstr ""
+
+#: admin/widget-notice.php:52
+msgid "Visit Your Widgets"
+msgstr ""
+
+#: admin/zero-spam-notice.php:25
+msgid ""
+"Did you know there is an excellent and free way to keep spam comments from "
+"ever getting submitted? We heartily recommend installing <a href=\"%s"
+"\">GoodBye Captcha</a>."
+msgstr ""
+
+#: core/ajax-handling.php:58 templates/subscribe-form.php:55
+msgid "You are already subscribed to %s."
+msgstr ""
+
+#: core/ajax-handling.php:149 core/ajax-handling.php:420
+msgid "You have unsubscribed."
+msgstr ""
+
+#: core/ajax-handling.php:190
+msgid "Preview email sent."
+msgstr ""
+
+#: core/ajax-handling.php:227
+msgid "An API Key is required"
+msgstr ""
+
+#: core/ajax-handling.php:249
+msgid ""
+"We're sorry. None of your lists qualified. <a href=\"%s\">Click here for "
+"more information</a>"
+msgstr ""
+
+#: core/ajax-handling.php:279
+msgid "Choose a Mailchimp list to import from:"
+msgstr ""
+
+#: core/ajax-handling.php:368
+msgid "Sorry, that email address is not valid."
+msgstr ""
+
+#: core/ajax-handling.php:394
+msgid ""
+"Almost done - you'll receive an email with instructions to complete your "
+"subscription."
+msgstr ""
+
+#: core/ajax-handling.php:437
+msgid ""
+"<strong>Confirmation email sent. Please check your email for further "
+"instructions.</strong>"
+msgstr ""
+
+#: core/command-handling.php:84
+msgid "Received a reply with invalid command data."
+msgstr ""
+
+#: core/command-handling.php:117
+msgid "Tried to create an email with an unrecognized reply command."
+msgstr ""
+
+#: core/commands/comment-command.php:122
+msgid "Invalid comment keys"
+msgstr ""
+
+#: core/commands/comment-command.php:131
+#: core/commands/confirmation-command.php:104
+#: core/commands/forward-command.php:131
+msgid "Invalid message"
+msgstr ""
+
+#: core/commands/comment-command.php:242
+msgid "rejected comment on unqualified post %s"
+msgstr ""
+
+#: core/commands/comment-command.php:251
+msgid "rejected duplicate comment on %s"
+msgstr ""
+
+#: core/commands/confirmation-command.php:99
+msgid "Invalid confirmation keys"
+msgstr ""
+
+#: core/commands/forward-command.php:121
+msgid "Invalid forward keys"
+msgstr ""
+
+#: core/commands/forward-command.php:126
+msgid "Invalid subscribable class"
+msgstr ""
+
+#: core/commands/post-request-command.php:88
+msgid "Invalid post request keys"
+msgstr ""
+
+#: core/commands/register-subscribe-command.php:40
+msgid "Couldn't find the original registration information for a new user."
+msgstr ""
+
+#: core/commands/register-subscribe-command.php:77
+msgid "Failed to create a new user from an agreement reply email."
+msgstr ""
+
+#: core/commands/register-subscribe-command.php:153
+#: core/commands/register-subscribe-command.php:164
+msgid "Received invalid metadata with a subscription agreement."
+msgstr ""
+
+#: core/commands/register-subscribe-command.php:173
+msgid "Received no message with a subscription agreement."
+msgstr ""
+
+#: core/comment-email-footer-sidebar.php:11
+msgid ""
+"These widgets will be included below the comments in Postmatic comment "
+"notifications. Need inspiration? Try our widgets directory at http://"
+"gopostmatic.com/widgets."
+msgstr ""
+
+#. translators: %s is a subscription list title
+#: core/comment-flood-controller.php:130
+#: core/email-batches/post-email-batch.php:258
+#: core/subscription-mailing.php:275
+msgid "You received this email because you're subscribed to %s."
+msgstr ""
+
+#: core/comment-flood-controller.php:135
+msgid "We're pausing comment notices for you."
+msgstr ""
+
+#: core/comment-form-handling.php:190
+msgid "You are subscribed to new comments on this post."
+msgstr ""
+
+#: core/comment-form-handling.php:195
+msgid "Unsubscribe"
+msgstr ""
+
+#: core/comment-mailing.php:41
+msgid "a deleted post"
+msgstr ""
+
+#: core/comment-mailing.php:55
+msgid "Unable to publish your reply to \"%s\""
+msgstr ""
+
+#: core/configurator.php:22
+msgid "A request for site configuration failed."
+msgstr ""
+
+#: core/configurator.php:31
+msgid "Configuration data arrived in an unrecognized format."
+msgstr ""
+
+#: core/core.php:44
+msgid "You're invited to subscribe to %s"
+msgstr ""
+
+#: core/core.php:45
+msgid ""
+"This is an invitation to subscribe to email updates from this website. We "
+"hope it is welcome, but we promise we won't contact you again unless you "
+"respond."
+msgstr ""
+
+#: core/core.php:49
+msgid "Thanks for signing up!"
+msgstr ""
+
+#: core/core.php:50
+msgid "We're glad you've decided to join and hope you enjoy our posts."
+msgstr ""
+
+#: core/core.php:71 templates/core-options-beta.php:9
+#: templates/core-options-premium.php:9
+msgid "Welcome!"
+msgstr ""
+
+#: core/core.php:82
+msgid "Continue this conversation via email"
+msgstr ""
+
+#: core/core.php:335
+msgid "Postmatic Delivery"
+msgstr ""
+
+#: core/core.php:358
+msgid "Postmatic Text Version"
+msgstr ""
+
+#: core/email-batches/comment-email-batch.php:71
+#: core/email-batches/comment-email-batch.php:80
+#: core/email-batches/comment-email-batch.php:84
+msgid "Anonymous"
+msgstr ""
+
+#. translators: %1$s is a subscription list title, %2$s the unsubscribe command
+#: core/email-batches/comment-email-batch.php:126
+msgid ""
+"You received this email because you're subscribed to %1$s. To no longer "
+"receive other comments or replies in this discussion reply with the word "
+"'%2$s'."
+msgstr ""
+
+#. translators: %1$s is a subscription list title, %2$s is the unsubscribe
+#. command word
+#: core/email-batches/comment-email-batch.php:365
+msgid "%s replied to your comment on %s."
+msgstr ""
+
+#: core/email-batches/comment-email-batch.php:373
+msgid "%s replied to %s on %s"
+msgstr ""
+
+#: core/email-batches/comment-email-batch.php:381
+msgid "%s commented on %s"
+msgstr ""
+
+#: core/email-batches/comment-email-batch.php:430
+msgid "%s replied to your comment on %s:"
+msgstr ""
+
+#: core/email-batches/comment-email-batch.php:435
+msgid "%s left a reply to a comment by %s on %s:"
+msgstr ""
+
+#: core/email-batches/email-batch.php:468
+#: core/email-batches/email-batch.php:488
+msgid "Sent from %s."
+msgstr ""
+
+#: core/email-batches/email-batch.php:473
+msgid "Delivered by <a href=\"%s\">Postmatic</a>."
+msgstr ""
+
+#: core/email-batches/email-batch.php:492
+msgid "Delivered by Postmatic."
+msgstr ""
+
+#: core/email-batches/email-batch.php:507 core/subscription-mailing.php:363
+msgid "Unsubscribe request"
+msgstr ""
+
+#. translators: %s is a post title
+#: core/email-batches/post-email-batch.php:44
+msgid "PREVIEW of %s"
+msgstr ""
+
+#: core/email-batches/post-email-batch.php:174
+msgid "Did not add an invalid post recipient"
+msgstr ""
+
+#. translators: %s is the unsubscribe command word
+#: core/email-batches/post-email-batch.php:275
+msgid "To unsubscribe reply with the word '%s'."
+msgstr ""
+
+#: core/email-batches/post-email-batch.php:289
+msgid "Subscribe to comments"
+msgstr ""
+
+#. translators: %s is the subscribed command word
+#: core/email-batches/post-email-batch.php:293
+msgid ""
+"To keep up to date with the conversation you can subscribe to comments. Just "
+"reply to this email with the word '%s'."
+msgstr ""
+
+#: core/email-batches/subscription-agreement-email-batch.php:44
+msgid "Please verify your subscription to %s"
+msgstr ""
+
+#: core/email-batches/subscription-agreement-email-batch.php:48
+msgid "Please select your subscription"
+msgstr ""
+
+#: core/email-batches/subscription-agreement-email-batch.php:153
+msgid "Important Notice"
+msgstr ""
+
+#: core/email-batches/subscription-agreement-email-batch.php:156
+msgid ""
+"You recently signed up for updates from %s. We sent you an email asking for "
+"verification but you did not reply correctly. Please read the following:"
+msgstr ""
+
+#. translators: placeholders are the URL and name of the site
+#: core/email-batches/subscription-agreement-email-batch.php:183
+msgid ""
+"This is invitation was sent to you from <a href=\"%s\">%s</a>. If you are "
+"not interested in subscribing you can safely ignore it. We will not email "
+"you again."
+msgstr ""
+
+#. translators: placeholders are the URL and name of the site
+#: core/email-batches/subscription-agreement-email-batch.php:191
+msgid ""
+"You received this email because you requested a subscription from <a href="
+"\"%s\">%s</a>."
+msgstr ""
+
+#. translators: placeholders are the name and URL of the site
+#: core/email-batches/subscription-agreement-email-batch.php:211
+msgid "This invitation was sent to you on behalf of %s at %s."
+msgstr ""
+
+#. translators: placeholders are the name and URL of the site
+#: core/email-batches/subscription-agreement-email-batch.php:219
+msgid ""
+"You received this email because you requested a subscription from %s at %s."
+msgstr ""
+
+#: core/email-comment-rendering.php:27 core/email-comment-rendering.php:67
+msgid "Reply to %s"
+msgstr ""
+
+#: core/email-comment-rendering.php:34 core/email-comment-rendering.php:69
+msgid "Reply"
+msgstr ""
+
+#: core/email-footer-sidebar.php:11
+msgid ""
+"These widgets will be included below new posts which are sent via Postmatic. "
+"Need inspiration? Try our widgets directory at http://gopostmatic.com/"
+"widgets."
+msgstr ""
+
+#: core/inbound-messenger.php:36
+msgid "Inbound messages arrived in an unrecognized format."
+msgstr ""
+
+#: core/inbound-messenger.php:65
+msgid "Failed to acknowledge unrecognized updates response."
+msgstr ""
+
+#: core/inbound-messenger.php:84
+msgid "Failed to acknowledge receipt of messages - they may arrive again."
+msgstr ""
+
+#: core/inbound-messenger.php:104
+msgid "Unable to deliver a message of unknown type."
+msgstr ""
+
+#: core/mailers/comment-mailer.php:89 core/mailers/post-mailer.php:81
+msgid "Got an unrecognized outbound message batch response."
+msgstr ""
+
+#: core/mailers/mailer.php:67 core/mailers/wp-mailer.php:46
+msgid "Duplicate retry skipped."
+msgstr ""
+
+#: core/mailers/subscription-agreement-wp-mailer.php:57
+msgid "A subscription agreement sending operation encountered a problem."
+msgstr ""
+
+#: core/mailers/wp-mailer.php:171
+msgid "Attempted to send to an invalid email address."
+msgstr ""
+
+#: core/mailers/wp-mailer.php:213
+msgid ""
+"Failed sending an email locally. Did you know Postmatic can deliver email "
+"for you?"
+msgstr ""
+
+#: core/mailers/wp-mailer.php:274
+msgid "An email sending operation behaved erratically and may have failed."
+msgstr ""
+
+#. translators: this is the word used to opt in via email reply
+#: core/matchers/agree-matcher.php:17
+#: templates/subscription-agreement-email-text.php:35
+#: templates/subscription-agreement-email.php:44
+msgid "agree"
+msgstr ""
+
+#. translators: this is the word used to switch to or select a new post
+#. subscription via email reply
+#: core/matchers/instant-matcher.php:17
+msgid "instant"
+msgstr ""
+
+#. translators: this is the word used to request a subscription via email reply
+#: core/matchers/subscribe-matcher.php:17
+msgid "subscribe"
+msgstr ""
+
+#. translators: this is the word used to unsubscribe via email reply
+#: core/matchers/unsubscribe-matcher.php:18
+msgid "unsubscribe"
+msgstr ""
+
+#: core/meta-subscribable-object.php:33
+msgid "Refused an attempt to subscribe an invalid user ID."
+msgstr ""
+
+#: core/optins-style.php:21
+msgid "Light"
+msgstr ""
+
+#: core/optins-style.php:35
+msgid "Dark"
+msgstr ""
+
+#: core/optins-style.php:49
+msgid "Spruce"
+msgstr ""
+
+#: core/optins-style.php:63
+msgid "Orange"
+msgstr ""
+
+#: core/optins-style.php:77
+msgid "Blue"
+msgstr ""
+
+#: core/optins-style.php:91
+msgid "Green"
+msgstr ""
+
+#: core/optins-style.php:105
+msgid "Lilac"
+msgstr ""
+
+#: core/optins.php:222
+msgid "Popup"
+msgstr ""
+
+#: core/optins.php:223
+msgid "Bottom of Page"
+msgstr ""
+
+#: core/optins.php:224
+msgid "Topbar"
+msgstr ""
+
+#: core/optins.php:225
+msgid "Bottom of Post"
+msgstr ""
+
+#: core/optins.php:252
+msgid "After a user submits a comment"
+msgstr ""
+
+#: core/optins.php:253
+msgid "After a set period of time."
+msgstr ""
+
+#: core/optins.php:254
+msgid "After the user scrolls to the bottom of the post or page."
+msgstr ""
+
+#: core/option-subscribable-object.php:64
+msgid "Refusing to subscribe an invalid user ID."
+msgstr ""
+
+#: core/post-rendering-modifiers/post-rendering-modifier.php:139
+msgid "This content is not compatible with your email client. "
+msgstr ""
+
+#: core/post-rendering-modifiers/post-rendering-modifier.php:142
+msgid "Click here to view this content in your browser."
+msgstr ""
+
+#: core/post.php:130
+msgid "discussion of <em>%s</em>"
+msgstr ""
+
+#. translators: %s is the post title
+#: core/post.php:146
+msgid ""
+"You have successfully subscribed and will receive an email when there is a "
+"new comment on <em>%s</em>."
+msgstr ""
+
+#: core/post.php:165 core/site-comments.php:81 core/site.php:100
+#: core/user.php:179
+msgid "Just hit send"
+msgstr ""
+
+#: core/post.php:171
+msgid "To get all new comments on %1%s, reply with the word '%2$s'</a>."
+msgstr ""
+
+#: core/post.php:186
+msgid "post"
+msgstr ""
+
+#: core/site-comments.php:47
+msgid "All comments on %s"
+msgstr ""
+
+#: core/site-comments.php:62
+msgid ""
+"You have successfully subscribed to all comments on %s and will receive new "
+"comments as soon as they are published."
+msgstr ""
+
+#: core/site-comments.php:87
+msgid "To get all new comments sitewide on %1$s, reply with the word '%2$s'."
+msgstr ""
+
+#: core/site-comments.php:103
+msgid ""
+"Please send me all new comments by email. Even ones on posts to which I have "
+"not subscribed."
+msgstr ""
+
+#: core/site-comments.php:114
+msgid "sitewide comments"
+msgstr ""
+
+#: core/site.php:71
+msgid ""
+"You have successfully subscribed to %s and will receive new posts as soon as "
+"they are published."
+msgstr ""
+
+#: core/site.php:106
+msgid ""
+"To get new posts as soon as they are published, reply with the word '%s'."
+msgstr ""
+
+#: core/site.php:121
+msgid "Please send all new posts to me by email."
+msgstr ""
+
+#: core/subscribe-widget.php:12
+msgid "Get visitors subscribed with minimal fuss."
+msgstr ""
+
+#: core/subscribe-widget.php:14
+msgid "Postmatic Subscribe"
+msgstr ""
+
+#: core/subscribe-widget.php:194
+msgid "Sorry, there was a problem reaching the server"
+msgstr ""
+
+#: core/subscribe-widget.php:239
+msgid "Subscribe to %s:"
+msgstr ""
+
+#: core/subscribe-widget.php:242
+msgid "Enter your email to subscribe to %s:"
+msgstr ""
+
+#: core/subscriber-origin.php:18
+msgid "Unknown source."
+msgstr ""
+
+#: core/subscription-mailing.php:144
+msgid "Tried to notify an invalid subscriber."
+msgstr ""
+
+#: core/subscription-mailing.php:153
+msgid "You're unsubscribed from %s"
+msgstr ""
+
+#: core/subscription-mailing.php:164
+msgid "You're subscribed to %s"
+msgstr ""
+
+#: core/subscription-mailing.php:282
+msgid "You've rejoined %s"
+msgstr ""
+
+#: core/subscription-mailing.php:289
+msgid "Welcome back, <span class=\"capitalize\">%s</span>."
+msgstr ""
+
+#: core/subscription-mailing.php:366
+msgid "To unsubscribe at any time reply with the word '%s'."
+msgstr ""
+
+#: core/unsubscribe-template.php:33
+msgid ""
+"We tried to unsubscribe you, but there was some required information missing "
+"from this request."
+msgstr ""
+
+#: core/unsubscribe-template.php:45
+msgid ""
+"Got it. %s has been unsubscribed from new posts as well as any conversations."
+msgstr ""
+
+#: core/user-mailing.php:26
+msgid "Welcome to %s"
+msgstr ""
+
+#: core/user.php:94
+msgid "Postmatic Subscription Information"
+msgstr ""
+
+#. translators: %s is the author name
+#: core/user.php:142
+msgid "posts by %s"
+msgstr ""
+
+#. translators: %s is the author name
+#: core/user.php:160
+msgid ""
+"You have successfully subscribed and will receive posts by %s directly in "
+"your inbox."
+msgstr ""
+
+#: core/user.php:183
+msgid ""
+"To get new posts by %s as soon as they are published, reply with the phrase "
+"'%s'."
+msgstr ""
+
+#: core/user.php:197
+msgid "author"
+msgstr ""
+
+#: core/user.php:233
+msgid "People that subscribe to you:"
+msgstr ""
+
+#: core/user.php:274
+msgid "Site Subscriptions:"
+msgstr ""
+
+#: core/user.php:296
+msgid "Authors you subscribe to:"
+msgstr ""
+
+#. translators: indicates that comments are closed on a post
+#: core/user.php:318
+msgid "(closed)"
+msgstr ""
+
+#: core/user.php:324
+msgid "Discussions you are subscribed to:"
+msgstr ""
+
+#: core/web-api-handling.php:77
+msgid ""
+"Rejected an inbound request with an invalid timestamp. Could be bot activity."
+msgstr ""
+
+#: core/web-api-handling.php:86
+msgid ""
+"Rejected an inbound request with an invalid token. Could be bot activity."
+msgstr ""
+
+#: core/web-api-handling.php:96 core/web-api-handling.php:106
+msgid ""
+"Rejected an inbound request with an invalid signature. Could be bot activity."
+msgstr ""
+
+#: templates/activate-account-notice.php:11
+msgid ""
+"<strong style=\"color:red\">Important:</strong> - You need to complete your "
+"Postmatic configuration."
+msgstr ""
+
+#: templates/activate-account-notice.php:14
+msgid "Get an API key and activate Postmatic"
+msgstr ""
+
+#: templates/comment-flood-email-text.php:13
+#: templates/comment-flood-email.php:13
+msgid "Heads up: the conversation around %s is heating up."
+msgstr ""
+
+#: templates/comment-flood-email-text.php:21
+msgid ""
+"You love email. But maybe not this much. We're going to pause notifications "
+"for you to prevent a flood in your inbox. You will no longer receive new "
+"comments on this post."
+msgstr ""
+
+#. translators: %1$s and %3$s may be replaced with link tags, %2$s is the
+#. rejoin command
+#: templates/comment-flood-email-text.php:32
+#: templates/comment-flood-email.php:35
+msgid ""
+"You won't receive new comments on this post, unless you reply to this email "
+"with the word %1$s'%2$s'%3$s. We'll send you a recap and renew your "
+"subscription."
+msgstr ""
+
+#: templates/comment-flood-email-text.php:44
+#: templates/new-post-email-text.php:20 templates/new-post-email.php:50
+#: templates/new-post-email.php:108
+msgid "View this post online"
+msgstr ""
+
+#: templates/comment-flood-email.php:24
+msgid ""
+"You love email -- but maybe not this much. We're going to pause "
+"notifications for you to prevent a flood in your inbox."
+msgstr ""
+
+#: templates/comment-flood-email.php:41
+msgid "Just press send"
+msgstr ""
+
+#: templates/comment-flood-email.php:52
+msgid "Continue the conversation online"
+msgstr ""
+
+#: templates/comment-rejected-email.php:11
+msgid "We're sorry."
+msgstr ""
+
+#: templates/comment-rejected-email.php:15
+msgid ""
+"Your reply to <em>%s</em> cannot be published because the post cannot be "
+"found or the discussion has been closed."
+msgstr ""
+
+#: templates/comment-rejected-email.php:28
+msgid "Please visit %s for more information."
+msgstr ""
+
+#: templates/comment-rejected-email.php:34
+msgid "More Information"
+msgstr ""
+
+#: templates/comment-reply-email-text.php:21
+#: templates/comment-reply-email-text.php:64
+#: templates/new-comment-email-text.php:30
+#: templates/new-comment-email-text.php:61
+msgid "* Reply to this email to reply to %s. *"
+msgstr ""
+
+#: templates/comment-reply-email-text.php:25
+#: templates/comment-reply-email.php:59
+msgid "Here's a recap of this post and conversation:"
+msgstr ""
+
+#. translators: %1$s is post title, %2$s date, %3$s time, %4$s author
+#: templates/comment-reply-email-text.php:31
+#: templates/comment-reply-email.php:65
+msgid "%1$s was published on %2$s by %4$s."
+msgstr ""
+
+#: templates/comment-reply-email-text.php:47
+msgid "There were %d comments previous to this. Here is this reply in context:"
+msgstr ""
+
+#: templates/comment-reply-email-text.php:70
+#: templates/new-comment-email-text.php:79
+msgid ""
+"To no longer receive other comments or replies in this discussion reply with "
+"the word '%s'."
+msgstr ""
+
+#: templates/comment-reply-email.php:49
+msgid "In reply to %s"
+msgstr ""
+
+#: templates/comment-reply-email.php:50 templates/comment-reply-email.php:100
+#: templates/new-comment-email.php:50 templates/new-comment-email.php:87
+msgid "Reply to this email to reply to %s."
+msgstr ""
+
+#: templates/comment-reply-email.php:80
+msgid ""
+"There were <a href=\"%1$s\">%2$d comments</a> previous to this. Here is this "
+"reply in context:"
+msgstr ""
+
+#: templates/core-options-premium.php:13
+msgid "Manage your account"
+msgstr ""
+
+#: templates/email-options-tab-footer.php:10
+msgid "Your posts, delivered looking this good."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:11
+msgid ""
+"Send perfect html emails that look beautiful on desktop, tablet or mobile."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:13
+msgid ""
+"You do your thing and post like you normally do. We’ll make sure everything "
+"looks perfect."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:17
+msgid "Learn about Postmatic Premium"
+msgstr ""
+
+#: templates/email-options-tab-footer.php:22
+msgid "Embed all the media you’d like"
+msgstr ""
+
+#: templates/email-options-tab-footer.php:24
+msgid ""
+"Postmatic Premium templates support images, galleries and oEmbeds from all "
+"the major audio and video services like Soundcloud, Vimeo and YouTube. "
+"Automatically."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:26
+msgid ""
+"We’ll even embed documents from Issuu and display good-looking invites from "
+"Meetup."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:30
+msgid "Plays well with others"
+msgstr ""
+
+#: templates/email-options-tab-footer.php:32
+msgid ""
+"Content from your favorite WordPress plugins or shortcodes will "
+"automatically be rendered as email-friendly html when you publish your "
+"posts. Automatically. "
+msgstr ""
+
+#: templates/email-options-tab-footer.php:34
+msgid ""
+"Insert whatever you want, like recipes, tables, galleries, videos, "
+"invitations or as. We’ll make sure it looks great."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:38
+msgid "Automatic content optimization"
+msgstr ""
+
+#: templates/email-options-tab-footer.php:40
+msgid ""
+"Our magic template knows what’s good for desktop and what can render on "
+"mobile. We’ll adjust the formatting on your content accordingly."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:42
+msgid ""
+"We’ll even use reverse- markdown to create the best looking text-only "
+"version for folks using simple email clients, older phones or those in "
+"remote areas."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:46
+msgid ""
+"Give your readers something pretty to look at and easy to use. Postmatic "
+"Premium lets you deliver <strong>beautiful and responsive html emails</"
+"strong>, with <strong>enhanced email commenting</strong>."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:50
+msgid ""
+"Plus, you’ll enjoy the simplicity of <strong>100% email-based comment "
+"moderation</strong> and have your content looking its best in a "
+"<strong>customizable template</strong>. You’ll also benefit from <strong>the "
+"best email delivery rates in the industry</strong>."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:53
+msgid "It’s all in Postmatic Premium."
+msgstr ""
+
+#: templates/email-options-tab-footer.php:56
+msgid ""
+"Try it for free for a week and send your engagement through the roof. On us."
+msgstr ""
+
+#: templates/forward-email.php:13
+msgid "%s sent you a private message"
+msgstr ""
+
+#: templates/get-a-key.php:9
+msgid "Welcome to Postmatic"
+msgstr ""
+
+#: templates/get-a-key.php:11
+msgid "Before we get started we need to get you a free Postmatic API key."
+msgstr ""
+
+#: templates/get-a-key.php:13
+msgid ""
+"An API key lets our server talk to yours so that Postmatic can do its magic "
+"(things like send you new comments, subscriber info, and send mail for you)."
+msgstr ""
+
+#: templates/get-a-key.php:16
+msgid "Get a free API key"
+msgstr ""
+
+#: templates/html-local-email-wrapper.php:87
+msgid "Click here to view the full post in your browser"
+msgstr ""
+
+#: templates/html-local-email-wrapper.php:108
+msgid ""
+"To immediately stop receiving all posts and comments from %s you can <a href="
+"\"%s\">unsubscribe with a single click</a>."
+msgstr ""
+
+#: templates/new-comment-email-text.php:17
+msgid "%s added a comment on %s"
+msgstr ""
+
+#: templates/new-comment-email-text.php:35 templates/new-comment-email.php:55
+msgid ""
+"You're invited to respond by replying to this email. If you do, it may be "
+"published immediately or held for moderation, depending on the comment "
+"policy of %s."
+msgstr ""
+
+#: templates/new-comment-email-text.php:45 templates/new-comment-email.php:70
+msgid "Recently in this conversation..."
+msgstr ""
+
+#: templates/new-comment-email-text.php:67
+#: templates/rejoined-email-text.php:41
+msgid ""
+"Please note: Your reply will be published publicly and immediately on %s."
+msgstr ""
+
+#. translators: %1$s is commenter name, %2$s is post title
+#: templates/new-comment-email.php:20
+msgid "%1$s added a comment in reply to %2$s."
+msgstr ""
+
+#: templates/new-comment-email.php:91
+msgid "<br /><strong>Please note</strong>: Your reply will be published on %s."
+msgstr ""
+
+#: templates/new-post-email-text.php:24
+msgid "* Reply to this email to add a comment. * "
+msgstr ""
+
+#: templates/new-post-email-text.php:28 templates/new-post-email.php:100
+#: templates/subscribed-email.php:50
+msgid ""
+"You're invited to comment on this post by replying to this email. If you do, "
+"it may be published immediately or held for moderation, depending on the "
+"comment policy of %s."
+msgstr ""
+
+#: templates/new-post-email-text.php:38
+msgid "Stay in the Loop"
+msgstr ""
+
+#: templates/new-post-email-text.php:41
+msgid ""
+"To receive comments on this post directly in your inbox reply with the word "
+"* subscribe *."
+msgstr ""
+
+#: templates/new-post-email-text.php:48
+msgid "Manage your subscription"
+msgstr ""
+
+#: templates/new-post-email-text.php:52
+msgid "To unsubscribe to %s reply with the word * unsubscribe *."
+msgstr ""
+
+#. translators: %s is the post author name
+#: templates/new-post-email.php:27
+msgid "by %s"
+msgstr ""
+
+#: templates/new-post-email.php:66
+msgid "There is <a href=\"%1$s\">one comment</a>"
+msgid_plural "There are <a href=\"%1$s\">%2$s comments</a>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/new-post-email.php:88 templates/new-post-email.php:93
+msgid "A comment..."
+msgstr ""
+
+#: templates/new-post-email.php:94 templates/rejoined-email.php:32
+#: templates/subscribed-email.php:45
+msgid ""
+"Reply to this email to add a comment. Your email address will not be shown."
+msgstr ""
+
+#: templates/new-user-email.php:9
+msgid "Welcome to %s."
+msgstr ""
+
+#: templates/new-user-email.php:13
+msgid ""
+"It's not required, but you can access some extra features on our site by <a "
+"href=\"%s\">logging in</a>."
+msgstr ""
+
+#: templates/new-user-email.php:21
+msgid "Your Account Information:"
+msgstr ""
+
+#: templates/new-user-email.php:23
+msgid "Username"
+msgstr ""
+
+#: templates/new-user-email.php:24
+msgid "Password"
+msgstr ""
+
+#: templates/new-user-email.php:28
+msgid "You may log in by visiting %s."
+msgstr ""
+
+#: templates/rejoined-email-text.php:16
+msgid ""
+"Here's a recap of the conversation. You'll see a marker below showing you "
+"what's new. Reply to add your thoughts."
+msgstr ""
+
+#: templates/rejoined-email-text.php:30 templates/rejoined-email.php:25
+#: templates/subscribed-email.php:37
+msgid "View this conversation online"
+msgstr ""
+
+#: templates/rejoined-email-text.php:35
+msgid "To leave a comment simply reply to this email."
+msgstr ""
+
+#: templates/rejoined-email-text.php:52
+msgid "To unsubscribe at any time visit %s"
+msgstr ""
+
+#: templates/rejoined-email.php:13
+msgid "Here's a recap of the conversation."
+msgstr ""
+
+#: templates/rejoined-email.php:37
+msgid ""
+"<strong>Please note</strong>: Your reply will be published publicly and "
+"immediately on %s."
+msgstr ""
+
+#: templates/rejoined-email.php:52
+msgid ""
+"To unsubscribe at any time reply with the word <strong>unsubscribe</strong>."
+msgstr ""
+
+#: templates/subscribe-form.php:49
+msgid "This field is intentionally empty"
+msgstr ""
+
+#: templates/subscribe-form.php:66
+msgid "Name (optional)"
+msgstr ""
+
+#: templates/subscribe-form.php:74
+msgid "Email"
+msgstr ""
+
+#: templates/subscribe-widget-settings.php:9
+msgid "Widget heading, leave blank to omit."
+msgstr ""
+
+#: templates/subscribe-widget-settings.php:10
+msgid "Title:"
+msgstr ""
+
+#: templates/subscribe-widget-settings.php:19
+msgid "Custom message above subscription fields, leave blank for default."
+msgstr ""
+
+#: templates/subscribe-widget-settings.php:20
+msgid "Description Text:"
+msgstr ""
+
+#: templates/subscribe-widget-settings.php:35
+msgid "Collect name (in addition to email)"
+msgstr ""
+
+#: templates/subscribed-email-text.php:16
+msgid "What's next?"
+msgstr ""
+
+#: templates/subscribed-email-text.php:21
+msgid "Keep an eye on your inbox for content from %s."
+msgstr ""
+
+#: templates/subscribed-email-text.php:32
+msgid "The conversation so far is included below."
+msgstr ""
+
+#: templates/subscribed-email-text.php:39
+msgid "Here is the discussion so far"
+msgstr ""
+
+#: templates/subscribed-email-text.php:52
+msgid "* To leave a comment simply reply to this email. *"
+msgstr ""
+
+#: templates/subscribed-email-text.php:56
+msgid "Please note: Your reply will be published on %s."
+msgstr ""
+
+#: templates/subscribed-email.php:18
+msgid "Here is what others have to say. Reply to add your thoughts."
+msgstr ""
+
+#: templates/subscribed-email.php:25
+msgid "Want to catch up? Here are the 30 most recent comments:"
+msgstr ""
+
+#. translators: %s is site name
+#: templates/subscription-agreement-email-text.php:8
+#: templates/subscription-agreement-email.php:11
+msgid "An invitation from %s"
+msgstr ""
+
+#. translators: %s is site name
+#: templates/subscription-agreement-email-text.php:14
+msgid "%s Subscription Confirmation"
+msgstr ""
+
+#: templates/subscription-agreement-email-text.php:24
+msgid "To confirm your subscription, please reply with the word agree:"
+msgstr ""
+
+#: templates/subscription-agreement-email-text.php:34
+#: templates/subscription-agreement-email.php:43
+msgid "Press send to confirm."
+msgstr ""
+
+#: templates/subscription-agreement-email-text.php:45
+msgid ""
+"Thanks for subscribing to %s. There is one more step to verify your "
+"subscription."
+msgstr ""
+
+#: templates/subscription-agreement-email-text.php:53
+msgid "Please choose a subscription option"
+msgstr ""
+
+#: templates/subscription-agreement-email-text.php:66
+#: templates/subscription-agreement-email.php:81
+msgid ""
+"If you did not initiate this subscription please ignore this email or "
+"forward it to %s."
+msgstr ""
+
+#: templates/subscription-agreement-email.php:19
+msgid "There’s one more step to finish your subscription to comments on %s."
+msgstr ""
+
+#: templates/subscription-agreement-email.php:23
+msgid "There's one more step to finish your subscription."
+msgstr ""
+
+#: templates/subscription-agreement-email.php:37
+msgid ""
+"To confirm your subscription, please <a href=\"%s\">reply with the word "
+"<strong>agree</strong></a>."
+msgstr ""
+
+#: templates/subscription-agreement-email.php:57
+msgid "Please choose a subscription option:"
+msgstr ""
+
+#: templates/text-email-wrapper.php:24
+msgid "To stop receiving email from %s visit:"
+msgstr ""
+
+#: templates/unsubscribe-view.php:13
+msgid "To resubscribe visit <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: templates/unsubscribed-email-text.php:8 templates/unsubscribed-email.php:9
+msgid "You have unsubscribed"
+msgstr ""
+
+#: templates/unsubscribed-email-text.php:13
+#: templates/unsubscribed-email.php:13
+msgid "You'll no longer receive email notices for %s."
+msgstr ""
+
+#: templates/unsubscribed-email-text.php:20
+#: templates/unsubscribed-email.php:18
+msgid "To re-subscribe visit:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Postmatic - WordPress Subscriptions & Commenting by Email"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://gopostmatic.com/"
+msgstr ""
