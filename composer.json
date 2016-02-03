@@ -1,0 +1,6 @@
+{
+	"name": "postmatic/beta-dist",
+	"description": "Composer source for a bundled beta distribution.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0+"
+}
