@@ -63,13 +63,10 @@ class Prompt_Admin_Users_Handling {
 			)
 		);
 
-		$prompt_site = new Prompt_Site();
-		if ( $prompt_site->is_subscribed( $user_id ) )
-			$column_content .= html( 'a',
-				array( 'href' => $edit_url . '#prompt-site-subscription' ),
-				__( 'New Posts', 'Postmatic' ),
-				'<br/>'
-			);
+		$signup_lists = Prompt_Subscribing::get_signup_lists();
+		foreach ( $signup_lists as $signup_list ) {
+			$column_content .= self::signup_list_column_content( $user_id, $signup_list, $edit_url );
+		}
 
 		$author_count = count( Prompt_User::subscribed_object_ids( $user_id ) );
 		if ( $author_count > 0 )
@@ -96,4 +93,19 @@ class Prompt_Admin_Users_Handling {
 		return $column_content;
 	}
 
+	protected static function signup_list_column_content( $user_id, Prompt_Interface_Subscribable $list, $edit_url ) {
+
+		if ( ! $list->is_subscribed( $user_id ) ) {
+			return '';
+		}
+
+		$label = $list instanceof Prompt_Site ? __( 'New Posts', 'Postmatic' ) : $list->subscription_object_label();
+
+		return html( 'a',
+			array( 'href' => $edit_url . '#prompt-site-subscription' ),
+			$list->subscription_object_label(),
+			'<br/>'
+		);
+
+	}
 }

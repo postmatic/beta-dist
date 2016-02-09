@@ -115,6 +115,15 @@ class Prompt_Site_Comments extends Prompt_Option_Subscribable_Object {
 	}
 
 	/**
+	 * @since 2.0.0
+	 * @param string $text
+	 * @return string
+	 */
+	public function matches_subscribe_phrase( $text ) {
+		return ( $text == $this->subscribe_phrase() );
+	}
+
+	/**
 	 * @since 1.0.0
 	 * @param int $user_id
 	 * @return array

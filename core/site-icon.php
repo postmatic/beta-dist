@@ -27,7 +27,13 @@ class Prompt_Site_Icon {
 
 		$attachment_image = new Prompt_Attachment_Image( Prompt_Core::$options->get( 'site_icon' ) );
 
-		return $attachment_image->url();
+		$url = $attachment_image->url();
+
+		if ( $url ) {
+			return $url;
+		}
+
+		return path_join( Prompt_Core::$url_path, 'media/prompt-site-icon-64.png' );
 	}
 
 	/**

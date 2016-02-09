@@ -34,6 +34,7 @@ printf(
 <?php echo $credit_text; ?>
 
 http://gopostmatic.com
+postmatic-ref-{{{ref_id}}}
 
 
 

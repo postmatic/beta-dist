@@ -238,10 +238,13 @@ class Prompt_Email_Batch {
 		$footer_type = Prompt_Core::$options->get( 'email_footer_type' );
 		$footer_text = Prompt_Core::$options->get( 'email_footer_text' );
 
-		$is_comment = false;
+		$use_comment_sidebar = false;
 		if ( isset( $batch_message_template['message_type'] ) ) {
-			$batch_message_template['is_' . $batch_message_template['message_type']] = true;
-			$is_comment = isset( $batch_message_template['is_' . Prompt_Enum_Message_Types::COMMENT] );
+			$batch_message_template['is_' . str_replace( '-', '_', $batch_message_template['message_type'] )] = true;
+			$use_comment_sidebar = in_array( $batch_message_template['message_type'], array(
+				Prompt_Enum_Message_Types::COMMENT,
+				Prompt_Enum_Message_Types::COMMENT_MODERATION,
+			) );
 		}
 
 		$default_template_values = array(
@@ -261,7 +264,7 @@ class Prompt_Email_Batch {
 			'site_icon_url' => $site_icon_url,
 			'site_css' => $site_styles->get_css() . $integration_css,
 			'footer_html' => Prompt_Enum_Email_Footer_Types::WIDGETS == $footer_type ?
-				$this->footer_widgets_html( $is_comment ) :
+				$this->footer_widgets_html( $use_comment_sidebar ) :
 				$footer_text,
 			'footer_text' => $footer_text,
 			'credit_html' => $this->credit_html(),
@@ -442,13 +445,13 @@ class Prompt_Email_Batch {
 	 *
 	 * @since 2.0.0
 	 *
-	 * @param bool $is_comment
+	 * @param bool $use_comment_sidebar
 	 * @return string
 	 */
-	protected function footer_widgets_html( $is_comment ) {
+	protected function footer_widgets_html( $use_comment_sidebar ) {
 		ob_start();
 
-		if ( $is_comment ) {
+		if ( $use_comment_sidebar ) {
 			Prompt_Comment_Email_Footer_Sidebar::render();
 		} else {
 			Prompt_Email_Footer_Sidebar::render();

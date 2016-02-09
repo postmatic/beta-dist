@@ -46,10 +46,3 @@ Prompt_Autoload::register( 'Prompt_Admin_', dirname( __FILE__ ) . '/admin' );
 Prompt_Autoload::register( 'Prompt_Enum_', dirname( __FILE__ ) . '/enums' );
 
 Prompt_Core::load();
-
-require_once dirname( __FILE__ ) . '/vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php';
-PucFactory::buildUpdateChecker(
-	'http://pm-updates.vernalpond.com/?action=get_metadata&slug=postmatic',
-	__FILE__,
-	'postmatic'
-);

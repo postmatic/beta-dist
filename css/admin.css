@@ -683,7 +683,7 @@ body.auto-fold.sticky-menu.folded #wpwrap {
 
 .intro-text h2 {
   font-size: 205%;
-  color: #19647e;
+  color: #F7A072;
   font-weight:normal;
 }
 .intro-text p {
@@ -728,13 +728,13 @@ li.ui-state-active:after {
     float: left;
     margin: 1%;
     width: 30%;
-    background:#eee5e5;
+    background:#F9F7F3;
     padding-bottom: 2%;
 }
 
 .chooser legend {
     color: #fff;
-    background:#28afb0;
+    background:#F7A072;
     display: block;
     width: 90%;
     padding: 5%;
@@ -763,13 +763,13 @@ li.ui-state-active:after {
     font-weight: normal;
 }
 .chooser label input:checked + strong {
-    color: #19647e;
+    color: #0FA3B1;
 }
 .chooser label input:checked + strong small {
     color: black !important;
 }
 .chooser label:hover {
-    color: #19647e;
+    color: #0FA3B1;
 }
 
 fieldset.chooser:nth-child(5) {
@@ -804,7 +804,7 @@ fieldset.chooser aside h3 {
 }
 
 .form-table th, .form-wrap label {
-  color: #28afb0;
+  color: #0FA3B1;
 }
 
 .form-table label p {

@@ -92,6 +92,8 @@
 
 <div class="content" style="margin-top: 25px;"><?php echo $html_content; ?></div>
 
+<span id="postmatic-ref-{{{ref_id}}}"></span>
+
 <div class="footer"><?php echo $footer_text; ?></div>
 
 <?php if ( empty( $suppress_delivery ) ) : ?>

@@ -111,6 +111,16 @@ interface Prompt_Interface_Subscribable extends Prompt_Interface_Identifiable {
 	function subscribe_phrase();
 
 	/**
+	 * Whether given text matches the subscribe phrase.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param string $text
+	 * @return string
+	 */
+	function matches_subscribe_phrase( $text );
+
+	/**
 	 * Get the IDs of all objects a user is subscribed to.
 	 *
 	 * @since 1.0.0

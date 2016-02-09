@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Postmatic - WordPress Subscriptions & Commenting by "
 "Email 2.0.0-beta5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/2.0.0-"
-"beta5-20160202-2121\n"
-"POT-Creation-Date: 2016-02-03 05:21:25+00:00\n"
+"beta5-20160208-1924\n"
+"POT-Creation-Date: 2016-02-09 03:24:13+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -324,7 +324,7 @@ msgid ""
 "\"https://en.wikipedia.org/wiki/Lorem_ipsum\">It is Lorem ipsum</a>."
 msgstr ""
 
-#: admin/email-options-tab.php:71 core/email-batches/email-batch.php:250
+#: admin/email-options-tab.php:71 core/email-batches/email-batch.php:253
 msgid "This is a test email. By Postmatic."
 msgstr ""
 
@@ -1481,21 +1481,21 @@ msgstr ""
 msgid "Postmatic Subscriptions"
 msgstr ""
 
-#: admin/users-handling.php:70
-msgid "New Posts"
-msgstr ""
-
-#: admin/users-handling.php:79
+#: admin/users-handling.php:76
 msgid "%d Author"
 msgid_plural "%d authors"
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/users-handling.php:90
+#: admin/users-handling.php:87
 msgid "%d Conversations"
 msgid_plural "%d Conversations"
 msgstr[0] ""
 msgstr[1] ""
+
+#: admin/users-handling.php:102
+msgid "New Posts"
+msgstr ""
 
 #: admin/widget-notice.php:35
 msgid ""
@@ -1735,20 +1735,20 @@ msgstr ""
 msgid "%s left a reply to a comment by %s on %s:"
 msgstr ""
 
-#: core/email-batches/email-batch.php:468
-#: core/email-batches/email-batch.php:488
+#: core/email-batches/email-batch.php:471
+#: core/email-batches/email-batch.php:491
 msgid "Sent from %s."
 msgstr ""
 
-#: core/email-batches/email-batch.php:473
+#: core/email-batches/email-batch.php:476
 msgid "Delivered by <a href=\"%s\">Postmatic</a>."
 msgstr ""
 
-#: core/email-batches/email-batch.php:492
+#: core/email-batches/email-batch.php:495
 msgid "Delivered by Postmatic."
 msgstr ""
 
-#: core/email-batches/email-batch.php:507 core/subscription-mailing.php:363
+#: core/email-batches/email-batch.php:510 core/subscription-mailing.php:363
 msgid "Unsubscribe request"
 msgstr ""
 
@@ -1864,17 +1864,17 @@ msgstr ""
 msgid "A subscription agreement sending operation encountered a problem."
 msgstr ""
 
-#: core/mailers/wp-mailer.php:171
+#: core/mailers/wp-mailer.php:172
 msgid "Attempted to send to an invalid email address."
 msgstr ""
 
-#: core/mailers/wp-mailer.php:213
+#: core/mailers/wp-mailer.php:214
 msgid ""
 "Failed sending an email locally. Did you know Postmatic can deliver email "
 "for you?"
 msgstr ""
 
-#: core/mailers/wp-mailer.php:274
+#: core/mailers/wp-mailer.php:275
 msgid "An email sending operation behaved erratically and may have failed."
 msgstr ""
 
@@ -1984,7 +1984,7 @@ msgid ""
 "new comment on <em>%s</em>."
 msgstr ""
 
-#: core/post.php:165 core/site-comments.php:81 core/site.php:100
+#: core/post.php:165 core/site-comments.php:81 core/site.php:110
 #: core/user.php:179
 msgid "Just hit send"
 msgstr ""
@@ -2021,18 +2021,23 @@ msgstr ""
 msgid "sitewide comments"
 msgstr ""
 
-#: core/site.php:71
+#. translators: %s is the site name
+#: core/site.php:58
+msgid "New posts from %s"
+msgstr ""
+
+#: core/site.php:73
 msgid ""
 "You have successfully subscribed to %s and will receive new posts as soon as "
 "they are published."
 msgstr ""
 
-#: core/site.php:106
+#: core/site.php:116
 msgid ""
 "To get new posts as soon as they are published, reply with the word '%s'."
 msgstr ""
 
-#: core/site.php:121
+#: core/site.php:131
 msgid "Please send all new posts to me by email."
 msgstr ""
 
@@ -2125,24 +2130,24 @@ msgstr ""
 msgid "author"
 msgstr ""
 
-#: core/user.php:233
+#: core/user.php:242
 msgid "People that subscribe to you:"
 msgstr ""
 
-#: core/user.php:274
+#: core/user.php:283
 msgid "Site Subscriptions:"
 msgstr ""
 
-#: core/user.php:296
+#: core/user.php:305
 msgid "Authors you subscribe to:"
 msgstr ""
 
 #. translators: indicates that comments are closed on a post
-#: core/user.php:318
+#: core/user.php:327
 msgid "(closed)"
 msgstr ""
 
-#: core/user.php:324
+#: core/user.php:333
 msgid "Discussions you are subscribed to:"
 msgstr ""
 
@@ -2399,7 +2404,7 @@ msgstr ""
 msgid "Click here to view the full post in your browser"
 msgstr ""
 
-#: templates/html-local-email-wrapper.php:108
+#: templates/html-local-email-wrapper.php:110
 msgid ""
 "To immediately stop receiving all posts and comments from %s you can <a href="
 "\"%s\">unsubscribe with a single click</a>."

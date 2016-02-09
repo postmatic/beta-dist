@@ -187,6 +187,15 @@ class Prompt_Post extends Prompt_Meta_Subscribable_Object {
 	}
 
 	/**
+	 * @since 2.0.0
+	 * @param string $text
+	 * @return string
+	 */
+	public function matches_subscribe_phrase( $text ) {
+		return ( $text == $this->subscribe_phrase() );
+	}
+
+	/**
 	 * Return cached recipient ids for published posts, otherwise clear cached recipients.
 	 *
 	 * When a post is unpublished, this allows recipients to change when published again.

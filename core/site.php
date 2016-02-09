@@ -54,7 +54,9 @@ class Prompt_Site extends Prompt_Option_Subscribable_Object {
 	 * @return string
 	 */
 	public function subscription_object_label( $format = Prompt_Enum_Content_Types::HTML ) {
-		return Prompt_Content_Handling::html_or_reduced_utf8( $format, get_bloginfo( 'name' ) );
+		/* translators: %s is the site name */
+		$label = sprintf( __( 'New posts from %s', 'Postmatic' ), get_bloginfo( 'name' ) );
+		return Prompt_Content_Handling::html_or_reduced_utf8( $format, $label );
 	}
 
 	/**
@@ -78,13 +80,21 @@ class Prompt_Site extends Prompt_Option_Subscribable_Object {
 	}
 
 	/**
-	 *
 	 * @since 2.0.0
-	 *
 	 * @return string
 	 */
 	public function subscribe_phrase() {
 		return Prompt_Instant_Matcher::target();
+	}
+
+	/**
+	 * @since 2.0.0
+	 * @param string $text
+	 * @return string
+	 */
+	public function matches_subscribe_phrase( $text ) {
+		$matcher = new Prompt_Instant_Matcher( $text );
+		return $matcher->matches();
 	}
 
 	/**

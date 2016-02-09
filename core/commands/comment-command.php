@@ -291,16 +291,17 @@ class Prompt_Comment_Command implements Prompt_Interface_Command {
 	 * @return bool
 	 */
 	protected function comment_exists( $text ) {
-		$exists = false;
-		$check_comments = get_comments( array(
-			'user_id' => $this->user_id,
-			'post_ID' => $this->post_id,
-		) );
-		foreach ( $check_comments as $comment ) {
-			if ( $comment->comment_content == $text )
-				$exists = true;
-		}
-		return $exists;
+		global $wpdb;
+
+		// Simple duplicate check
+		$dupe = $wpdb->prepare(
+			"SELECT comment_ID FROM $wpdb->comments WHERE comment_post_ID = %d AND user_id = %s AND comment_approved != 'trash' AND comment_content = %s LIMIT 1",
+			$this->post_id,
+			$this->user_id,
+			$text
+		);
+
+		return $wpdb->get_var( $dupe );
 	}
 
 	/**

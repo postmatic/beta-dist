@@ -248,29 +248,10 @@ class Prompt_Register_Subscribe_Command implements Prompt_Interface_Command {
 		}
 
 		foreach ( $lists as $list ) {
-			$opted_in_list = $this->is_opt_in( $stripped_text, $list ) ? $list : $opted_in_list;
+			$opted_in_list = $list->matches_subscribe_phrase( $stripped_text ) ? $list : $opted_in_list;
 		}
 
 		return $opted_in_list;
 	}
 
-	/**
-	 *
-	 * @since 2.0.0
-	 *
-	 * @param string $text
-	 * @param Prompt_Interface_Subscribable $list
-	 * @return bool
-	 */
-	protected function is_opt_in( $text, Prompt_Interface_Subscribable $list ) {
-
-		$class = 'Prompt_' . ucfirst( $list->subscribe_phrase() . '_Matcher' );
-
-		if ( !class_exists( $class ) ) {
-			return false;
-		}
-
-		$matcher = new $class( $text );
-		return $matcher->matches();
-	}
 }

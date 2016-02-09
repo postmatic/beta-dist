@@ -65,16 +65,9 @@ class Prompt_Wp_Mailer extends Prompt_Mailer {
 
 		for( $i = 0; $i < count( $source_values ); $i += 1 ) {
 
-			$local_email = $this->render_individual_email( $source_values[$i] );
+			$outbound_message = $tracking_results ? $tracking_results->outboundMessages[$i] : null;
 
-			if ( $tracking_results ) {
-				$local_email['reply_address'] = Prompt_Email_Batch::address(
-					$tracking_results->outboundMessages[$i]->reply_to
-				);
-				$local_email['reply_name'] = Prompt_Email_Batch::name(
-					$tracking_results->outboundMessages[$i]->reply_to
-				);
-			}
+			$local_email = $this->render_individual_email( $source_values[$i], $outbound_message );
 
 			$return_values[$local_email['to_address']] = $this->send_prepared( $local_email );
 		}
@@ -133,9 +126,10 @@ class Prompt_Wp_Mailer extends Prompt_Mailer {
 	 * @since 2.0.0
 	 *
 	 * @param array $values
+	 * @param object $outbound_message
 	 * @return array
 	 */
-	protected function render_individual_email( $values ) {
+	protected function render_individual_email( $values, $outbound_message ) {
 
 		$template = $this->batch->get_batch_message_template();
 
@@ -150,8 +144,15 @@ class Prompt_Wp_Mailer extends Prompt_Mailer {
 			unset( $values['reply_to'] );
 		}
 
+		$values['ref_id'] = $outbound_message ? $outbound_message->id : 'noreply';
+
 		foreach( $template as $field_name => $field_template ) {
 			$email_fields[$field_name] = $this->handlebars->render_string( $field_template, $values );
+		}
+
+		if ( $outbound_message ) {
+			$email_fields['reply_address'] = Prompt_Email_Batch::address( $outbound_message->reply_to );
+			$email_fields['reply_name'] = Prompt_Email_Batch::name( $outbound_message->reply_to );
 		}
 
 		return $email_fields;

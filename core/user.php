@@ -198,6 +198,15 @@ class Prompt_User extends Prompt_Meta_Subscribable_Object {
 	}
 
 	/**
+	 * @since 2.0.0
+	 * @param string $text
+	 * @return string
+	 */
+	public function matches_subscribe_phrase( $text ) {
+		return ( $text == $this->subscribe_phrase() );
+	}
+
+	/**
 	 * @since 1.0.0
 	 */
 	public function delete_all_subscriptions() {
